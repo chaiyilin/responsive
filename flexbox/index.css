@@ -25,18 +25,22 @@
   position: relative;
   display: flex;
   flex-flow: row wrap;
+  /*justify-content:space-around;*/
+  align-items:stretch
+
 }
 
-.library-item {
-  display: flex;
-  flex-flow: column;
+.library-item1 {
+  flex:0 1 20%;
+  height: 100px;
 }
-.library-item > img {
-  order: -1;
-  align-self: center;
+.library-item2 {
+  flex:0 1 20%;
+  height: 200px;
 }
-.library-item > button {
-  margin-top: auto;
+.library-item3 {
+  flex:0 1 20%;
+  height: 300px;
 }
 
 .block{
