@@ -1,0 +1,46 @@
+.for-div{
+  display: inline-block;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  height: 1em;
+}
+
+.for-span{
+  display: block;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  height: 1em;
+}
+
+.for-block{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+
+#library {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.library-item {
+  display: flex;
+  flex-flow: column;
+}
+.library-item > img {
+  order: -1;
+  align-self: center;
+}
+.library-item > button {
+  margin-top: auto;
+}
+
+.block{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
