@@ -1,0 +1,30 @@
+.container {
+    position:relative;
+    background-color: beige;
+    overflow: auto;
+
+}
+
+.element {
+    background-color: aquamarine;
+    min-height: 5rem;
+    width: 10rem;
+    border-style: solid;
+    border-color: black;
+    float: left;
+}
+
+.first{
+    position: relative;
+    left: 5rem;
+}
+
+.second{
+    position: relative;
+    left: 6rem;
+}
+
+.third{
+    position: relative;
+    left: 35rem;
+}
