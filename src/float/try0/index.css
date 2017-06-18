@@ -1,10 +1,13 @@
 .container {
     /*position: relative;*/
+    border-style: solid;
+    border-color: black;
     background-color: beige;
     /*display:inline-block;*/
     /*overflow: auto;*/
     float: left;
     padding: 1em;
+    min-width: 5rem;
 }
 
 .element {
@@ -18,18 +21,21 @@
 
 .first {
     float:left;
+    clear: both;
     /*position: relative;*/
-    left: 5rem;
+    margin-left: 5rem;
 }
 
 .second {
     float:left;
+    clear: both;
     /*position: relative;*/
-    left: 6rem;
+    margin-left: 6rem;
 }
 
 .third {
     float:left;
+    clear: both;
     /*position: relative;*/
-    left: 7rem;
+    margin-left: 7rem;
 }
