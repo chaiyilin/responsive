@@ -1,8 +1,9 @@
 .container {
-    position: relative;
+    /*position: relative;*/
     background-color: beige;
-    overflow: auto;
-    /*float: left;*/
+    /*display:inline-block;*/
+    /*overflow: auto;*/
+    float: left;
     padding: 1em;
 }
 
@@ -16,16 +17,19 @@
 }
 
 .first {
-    position: relative;
+    float:left;
+    /*position: relative;*/
     left: 5rem;
 }
 
 .second {
-    position: relative;
+    float:left;
+    /*position: relative;*/
     left: 6rem;
 }
 
 .third {
-    position: relative;
+    float:left;
+    /*position: relative;*/
     left: 7rem;
 }
